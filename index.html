@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>OpenTheGate</h1>
+        <img class="house" src="./img/house.svg" alt="house">
+        <p id="gate">1111 1111 1111 1111 1111 1111</p>
+        <input type="button" id="btn-gate" value="GET THE PASSCODE" onclick="gate()">
+        <div class="panel-code">
+            <table>
+                <p>Enter the pin:</p>
+                <input type="text" name="panel-code" id="pincode" maxlength="6" required>
+                    <tbody>
+                        <tr>
+                            <td><input type="button" value="1" onclick="put('1')" />
+                            <td><input type="button" value="2" onclick="put('2')" />
+                            <td><input type="button" value="3" onclick="put('3')" />
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="4" onclick="put('4')" />
+                            <td><input type="button" value="5" onclick="put('5')" />
+                            <td><input type="button" value="6" onclick="put('6')" />
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="7" onclick="put('7')" />
+                            <td><input type="button" value="8" onclick="put('8')" />
+                            <td><input type="button" value="9" onclick="put('9')" />
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="0" onclick="put('0')" />
+                            <td><input type="button" value="<" onclick="del()" />
+                            <td><input type="button" value="O" onclick="enter()" />
+                        </tr>
+                    </tbody>
+            </table>
+            <input id="authority" value="" disabled>
+            <button onclick="window.location.href='https://www.rapidtables.com/convert/number/binary-to-decimal.html'">Clue</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

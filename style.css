@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6fd6343a;
+}
+
+.container {
+    margin: auto auto;
+    background-color: rgba(226, 198, 209, 0.13);
+    width: 360px;
+    max-width: 800px;
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 150%;
+    color: #290d0d86;
+    text-align: center;
+    margin: auto auto;
+    width: 80%;
+    border: solid rgba(158, 144, 144, 0.171) 8px; 
+    background-color: rgba(219, 197, 197, 0.452);
+}
+
+.house {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#btn-gate {
+    transition-duration: 0.4s;
+}
+
+#btn-gate:hover { 
+    background-color: #4CAF50;
+    color: white;
+}
+
+#gate {
+    position: relative;
+    font-size: 130%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    bottom: 30px;   
+    background-color: #7c727291; 
+    transition-duration: 1s;
+    color: white;
+}
+
+.panel-code {
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    width: 200px; 
+    border: solid rgba(88, 117, 119, 0.918) 1px; 
+    background-color: #5c796a41;
+}
+
+#authority {
+    background-color:  rgba(68, 56, 56, 0.164);
+    margin: 3px 4px;
+    text-align: center;
+    width: 70%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 70%;
+    color: rgb(17, 17, 17);
+}
+
+.panel-code tbody input { 
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(rgb(78, 89, 189), green, blue); 
+    width: 100%;
+    transition-duration: 0.1s;
+} 
+
+.panel-code tbody input:hover {
+    background-color: #4686486b;
+    color: white;
+    width: 80%;
+}
+
+#pincode {
+    width: 80%;
+}
+
+#clue p, a{
+    text-decoration: none;
+    color: red;
+}
